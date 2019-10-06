@@ -13,7 +13,7 @@
                 return $this->conn;
             }
             catch (PDOException $e){
-                echo "Ocurrió un problema con la conexión: " . $e->getMessage();
+                echo "Il y a eu un problème avec la connexion" . $e->getMessage();
             }
     
        }
